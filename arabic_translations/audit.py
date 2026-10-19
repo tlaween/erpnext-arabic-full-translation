@@ -24,6 +24,7 @@ Usage
 import json
 
 import frappe
+import frappe.translate
 
 # (doctype, field) pairs whose values Frappe renders through __() in the desk UI.
 SOURCES = [

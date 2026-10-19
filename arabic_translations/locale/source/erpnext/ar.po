@@ -4189,9 +4189,8 @@ msgstr "الإجراء إذا تجاوزت الميزانية السنوية ا�
 #. Label of the maintain_same_rate_action (Select) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Action if Same Rate is Not Maintained Throughout  Internal Transaction"
-msgstr "الإجراء في حال عدم الحفاظ على نفس السعر طوال المعاملة الداخلية"
+msgstr "الإجراء عند عدم الحفاظ على السعر نفسه طوال المعاملة الداخلية"
 
 #. Label of the maintain_same_rate_action (Select) field in DocType 'Selling
 #. Settings'
@@ -5046,9 +5045,8 @@ msgstr "العنوان المستخدم لتحديد فئة الضريبة في 
 
 #. Label of the adjust_qty (Float) field in DocType 'Sales Forecast Item'
 #: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
-#, fuzzy
 msgid "Adjust Qty"
-msgstr "كمية خارجة"
+msgstr "تعديل الكمية"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1130
 msgid "Adjustment Against"
@@ -6073,9 +6071,8 @@ msgstr "السماح للمستخدم بتعديل السعر"
 
 #. Label of the allow_warehouse_change (Check) field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
-#, fuzzy
 msgid "Allow User to Edit Warehouse"
-msgstr "السماح للمستخدم بتعديل السعر"
+msgstr "السماح للمستخدم بتعديل المستودع"
 
 #. Label of the allow_different_uom (Check) field in DocType 'Item Variant
 #. Settings'
@@ -8210,9 +8207,8 @@ msgstr "إضافة الضرائب والرسوم تلقائيا من قالب ا
 #. Label of the add_taxes_from_taxes_and_charges_template (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Automatically Add Taxes from Taxes and Charges Template"
-msgstr "إضافة الضرائب والرسوم تلقائيا من قالب الضريبة البند"
+msgstr "إضافة الضرائب تلقائيًا من قالب الضرائب والرسوم"
 
 #. Label of the create_new_batch (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -8693,7 +8689,6 @@ msgid "BOM Tree"
 msgstr "شجرة قائمة المواد"
 
 #: erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py:27
-#, fuzzy
 msgid "BOM UOM"
 msgstr "وحدة قياس قائمة المواد"
 
@@ -9759,6 +9754,10 @@ msgstr "الأصناف المفوترة التي سيتم استلامها"
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_received_item/subcontracting_inward_order_received_item.json
 msgid "Billed Qty"
 msgstr "الكمية المفوترة"
+
+#. Label in the Sales Invoice Classic print format
+msgid "Billed To"
+msgstr "فاتورة إلى"
 
 #. Label of the section_break_56 (Section Break) field in DocType 'Purchase
 #. Order Item'
@@ -12914,6 +12913,11 @@ msgstr "شركة الأصل {0} ومستند الشراء {1} غير متطاب�
 #: erpnext/setup/doctype/company/company.json
 msgid "Company registration numbers for your reference. Tax numbers etc."
 msgstr "أرقام تسجيل الشركة و أرقام ملفات الضرائب..... الخ"
+
+#. Label of the company_restrictions_section (Section Break) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Company Restrictions"
+msgstr "قيود الشركات"
 
 #. Description of the 'Represents Company' (Link) field in DocType 'Sales
 #. Invoice'
@@ -17010,9 +17014,8 @@ msgstr "خيارات المحدد"
 
 #. Label of the deliver_scrap_items (Check) field in DocType 'Selling Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
-#, fuzzy
 msgid "Deliver Scrap Items"
-msgstr "الحصول على أصناف الخردة"
+msgstr "تسليم أصناف الخردة"
 
 #. Option for the 'Status' (Select) field in DocType 'Purchase Order'
 #. Option for the 'Status' (Select) field in DocType 'Serial No'
@@ -18600,9 +18603,8 @@ msgstr "رخصة قيادة الفئة"
 #. Label of the drop_ar_procedures (Button) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Drop Procedures"
-msgstr "شجرة الإجراءات"
+msgstr "حذف الإجراءات المخزنة"
 
 #. Label of the drop_ship (Section Break) field in DocType 'POS Invoice Item'
 #. Label of the drop_ship (Section Break) field in DocType 'Sales Invoice Item'
@@ -19187,7 +19189,6 @@ msgstr "المستوى التعليمي للموظف"
 
 #. Label of the exit (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
-#, fuzzy
 msgid "Employee Exit"
 msgstr "إنهاء خدمة الموظف"
 
@@ -20592,9 +20593,8 @@ msgstr "جلب جدول الدوام في فاتورة المبيعات"
 #. Label of the fetch_valuation_rate_for_internal_transaction (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Fetch Valuation Rate for Internal Transaction"
-msgstr "تعيين معدل التقييم للمواد المرفوضة"
+msgstr "جلب معدل التقييم للمعاملة الداخلية"
 
 #. Label of the fetch_from_parent (Select) field in DocType 'Inventory
 #. Dimension'
@@ -21540,9 +21540,8 @@ msgstr "توقعات الطلب"
 
 #. Label of the forecast_qty (Float) field in DocType 'Sales Forecast Item'
 #: erpnext/manufacturing/doctype/sales_forecast_item/sales_forecast_item.json
-#, fuzzy
 msgid "Forecast Qty"
-msgstr "توقعات"
+msgstr "الكمية المتوقعة"
 
 #. Label of the foreign_trade_details (Section Break) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -23552,6 +23551,11 @@ msgstr "إذا تم تحديده، سيتم تضمين الكمية المرفو
 msgid "If checked, Stock will be reserved on <b>Submit</b>"
 msgstr "إذا تم تحديده، سيتم حجز المخزون عند <b>الترحيل</b>"
 
+#. Description of the 'Restrict to Companies' (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "If checked, this Item is only available for transactions in the companies listed below."
+msgstr "إذا تم تحديد هذا الخيار، فلن يتوفر هذا الصنف إلا للمعاملات في الشركات المدرجة أدناه."
+
 #. Description of the 'Scan Mode' (Check) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
 msgid "If checked, picked qty won't automatically be fulfilled on submit of pick list."
@@ -25180,9 +25184,8 @@ msgstr "مرجع المبيعات الداخلية مفقود"
 #. Label of the internal_supplier_section (Section Break) field in DocType
 #. 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
-#, fuzzy
 msgid "Internal Supplier Accounting"
-msgstr "مورد داخلي"
+msgstr "محاسبة المورد الداخلي"
 
 #: erpnext/buying/doctype/supplier/supplier.py:181
 #, python-brace-format
@@ -29204,9 +29207,8 @@ msgstr "صيانة الأصل"
 #. Label of the maintain_same_internal_transaction_rate (Check) field in
 #. DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Maintain Same Rate Throughout Internal Transaction"
-msgstr "حافظ على نفس السعر طوال دورة الشراء"
+msgstr "الحفاظ على السعر نفسه طوال المعاملة الداخلية"
 
 #. Label of the maintain_same_sales_rate (Check) field in DocType 'Selling
 #. Settings'
@@ -29439,9 +29441,8 @@ msgid "Make Difference Entry"
 msgstr "إنشاء قيد الفرق"
 
 #: erpnext/stock/doctype/item/item.js:591
-#, fuzzy
 msgid "Make Lead Time"
-msgstr "المهلة"
+msgstr "مهلة التصنيع"
 
 #. Label of the make_payment_via_journal_entry (Check) field in DocType
 #. 'Accounts Settings'
@@ -33155,13 +33156,11 @@ msgid "Opening and Closing"
 msgstr "افتتاح واختتام"
 
 #: erpnext/stock/doctype/item/item.py:191
-#, fuzzy
 msgid ""
 "Opening stock creation has been queued and will be created in the background. Please "
 "check the stock entry after some time."
 msgstr ""
-"تم وضع إنشاء المخزون الافتتاحي في قائمة الانتظار وسيُنشأ في الخلفية. يرجى التحقق من "
-"قيد المخزون بعد قليل."
+"تمت جدولة إنشاء المخزون الافتتاحي وسيُنشأ في الخلفية. يُرجى مراجعة سند المخزون بعد قليل."
 
 #. Label of the operating_component (Link) field in DocType 'Workstation Cost'
 #: erpnext/manufacturing/doctype/workstation_cost/workstation_cost.json
@@ -38803,9 +38802,8 @@ msgid "Procedure"
 msgstr "إجراء"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:39
-#, fuzzy
 msgid "Procedures dropped"
-msgstr "إجراء"
+msgstr "تم حذف الإجراءات"
 
 #. Label of the process_deferred_accounting (Link) field in DocType 'Journal
 #. Entry'
@@ -41554,9 +41552,8 @@ msgid "Rates"
 msgstr "معدلات"
 
 #: erpnext/controllers/accounts_controller.py:4023
-#, fuzzy
 msgid "Rates cannot be modified for quoted items"
-msgstr "لا يمكن تعديل الأسعار للأصناف المسعّرة"
+msgstr "لا يمكن تعديل الأسعار للأصناف المدرجة في عرض السعر"
 
 #: erpnext/accounts/report/financial_ratios/financial_ratios.py:48
 msgid "Ratios"
@@ -43605,6 +43602,11 @@ msgstr "تقييد الأصناف بناءً على"
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 msgid "Restrict to Countries"
 msgstr "تقييد البلدان"
+
+#. Label of the restrict_to_companies (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Restrict to Companies"
+msgstr "تقييد الاستخدام على شركات محددة"
 
 #. Label of the result_key (Table) field in DocType 'Currency Exchange
 #. Settings'
@@ -46838,9 +46840,8 @@ msgstr "الخردة الأصناف"
 #. Label of the scrap_items_generated_section (Section Break) field in DocType
 #. 'Subcontracting Inward Order'
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
-#, fuzzy
 msgid "Scrap Items Generated"
-msgstr "اسم صنف الخردة"
+msgstr "أصناف الخردة الناتجة"
 
 #. Label of the scrap_material_cost (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
@@ -48627,6 +48628,10 @@ msgstr "إعدادات وحدة المبيعات"
 #: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.json
 msgid "Settled"
 msgstr "تسوية"
+
+#. Label of a main sidebar item
+msgid "Setup"
+msgstr "الإعدادات"
 
 #: erpnext/public/js/setup_wizard.js:25
 msgid "Setup your organization"
@@ -50896,9 +50901,8 @@ msgstr "صنف تم استلامه من الباطن"
 
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_scrap_item/subcontracting_inward_order_scrap_item.json
-#, fuzzy
 msgid "Subcontracting Inward Order Scrap Item"
-msgstr "صنف أمر تعاقد من الباطن"
+msgstr "صنف خردة لأمر استلام التعاقد من الباطن"
 
 #. Name of a DocType
 #: erpnext/subcontracting/doctype/subcontracting_inward_order_service_item/subcontracting_inward_order_service_item.json
@@ -50908,7 +50912,6 @@ msgstr "صنف خدمة طلب داخلي للتعاقد من الباطن"
 #. Label of the section_break_zwh6 (Section Break) field in DocType 'Selling
 #. Settings'
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
-#, fuzzy
 msgid "Subcontracting Inward Settings"
 msgstr "إعدادات التعاقد من الباطن"
 
@@ -56907,16 +56910,14 @@ msgstr "استخدام التفاعلية القديمة (من جانب العم
 #. Label of the use_legacy_budget_controller (Check) field in DocType 'Accounts
 #. Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Use Legacy Budget Controller"
-msgstr "استخدام وحدة تحكم الميزانية الجديدة"
+msgstr "استخدام آلية التحكم القديمة بالميزانية"
 
 #. Label of the use_legacy_controller_for_pcv (Check) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
-#, fuzzy
 msgid "Use Legacy Controller For Period Closing Voucher"
-msgstr "استخدام وحدة التحكم القديمة لقيد إغلاق الفترة"
+msgstr "استخدام آلية التحكم القديمة لسند إقفال الفترة"
 
 #. Label of the use_multi_level_bom (Check) field in DocType 'Work Order'
 #. Label of the use_multi_level_bom (Check) field in DocType 'Stock Entry'
@@ -57225,9 +57226,8 @@ msgstr "التحقق من المكونات والكميات لكل قائمة م
 #. Label of the validate_consumed_qty (Check) field in DocType 'Buying
 #. Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
-#, fuzzy
 msgid "Validate Consumed Qty (as per BOM)"
-msgstr "التحقق من المكونات والكميات لكل قائمة مواد"
+msgstr "التحقق من الكمية المستهلكة (وفقًا لقائمة المواد)"
 
 #. Label of the validate_material_transfer_warehouses (Check) field in DocType
 #. 'Stock Settings'
@@ -67683,3 +67683,6 @@ msgstr "جهات اتصال جديدة"
 #~ msgid "{} To Bill"
 #~ msgstr "{} للفوترة"
 
+#. UI label with no catalog translation
+msgid "Add Account"
+msgstr "إضافة حساب"

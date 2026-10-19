@@ -14622,6 +14622,11 @@ msgstr "إنشاء رابط تتبع"
 msgid "Geoapify"
 msgstr "Geoapify"
 
+#. Title of a Sidebar
+#: frappe/geo/sidebar/geo/geo.json
+msgid "Geo"
+msgstr "الجغرافيا"
+
 #. Option for the 'Type' (Select) field in DocType 'DocField'
 #. Option for the 'Field Type' (Select) field in DocType 'Custom Field'
 #. Option for the 'Type' (Select) field in DocType 'Customize Form Field'
@@ -15652,12 +15657,12 @@ msgstr ""
 #: frappe/public/js/frappe/list/list_view.js:447 frappe/public/js/frappe/model/meta.js:200
 #: frappe/public/js/frappe/model/model.js:122
 msgid "ID"
-msgstr "هوية شخصية"
+msgstr "المعرّف"
 
 #: frappe/desk/reportview.py:491 frappe/public/js/frappe/views/reports/report_view.js:978
 msgctxt "Label of name column in report"
 msgid "ID"
-msgstr "هوية شخصية"
+msgstr "المعرّف"
 
 #: frappe/public/js/print_format_builder/PrintFormatControls.vue:169
 msgid "ID (name)"
@@ -18423,7 +18428,7 @@ msgstr "رسالة إعداد القائمة"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:542
 msgid "Lists"
-msgstr "قوائم"
+msgstr "القوائم"
 
 #. Option for the 'Rule' (Select) field in DocType 'Assignment Rule'
 #: frappe/automation/doctype/assignment_rule/assignment_rule.json
@@ -37878,3 +37883,90 @@ msgstr "إعادة تعيين تخطيط سطح المكتب"
 msgid "Edit Layout"
 msgstr "تعديل التخطيط"
 
+#. Labels found by auditing Desk fixtures on the configured site.
+msgid "Arabic Translations"
+msgstr "الترجمات العربية"
+
+msgid "Batch Split Tree"
+msgstr "شجرة تقسيم الدفعات"
+
+msgid "Core"
+msgstr "النواة"
+
+msgid "Customer Form Tour"
+msgstr "جولة نموذج العميل"
+
+msgid "ERPNext Integrations"
+msgstr "تكاملات ERPNext"
+
+msgid "Failed Scheduled Jobs"
+msgstr "المهام المجدولة الفاشلة"
+
+msgid "Issues Opened"
+msgstr "المشكلات المفتوحة"
+
+msgid "Library Management"
+msgstr "إدارة المكتبة"
+
+msgid "Monthly Completed Work Order"
+msgstr "أوامر العمل المكتملة شهريًا"
+
+msgid "Open Non Conformances"
+msgstr "حالات عدم المطابقة المفتوحة"
+
+msgid "Open Quality Actions"
+msgstr "إجراءات الجودة المفتوحة"
+
+msgid "Open Quality Reviews"
+msgstr "مراجعات الجودة المفتوحة"
+
+msgid "Overdue Issues"
+msgstr "المشكلات المتأخرة"
+
+msgid "Postgres Index Suggestions"
+msgstr "اقتراحات فهارس PostgreSQL"
+
+msgid "Postgres Query Stats"
+msgstr "إحصاءات استعلامات PostgreSQL"
+
+msgid "Resolved Issues"
+msgstr "المشكلات التي تم حلها"
+
+msgid "Supplier Form Tour"
+msgstr "جولة نموذج المورد"
+
+msgid "Utilities"
+msgstr "الأدوات المساعدة"
+
+msgid "Background Tasks"
+msgstr "المهام الخلفية"
+
+msgid "Collapse rail"
+msgstr "طي الشريط الجانبي"
+
+msgid "Expand/Collapse"
+msgstr "توسيع/طي"
+
+msgid "Show all (including disabled)"
+msgstr "عرض الكل (بما في ذلك المعطّل)"
+
+msgid "Tree Level"
+msgstr "مستوى الشجرة"
+
+msgid "More actions"
+msgstr "المزيد من الإجراءات"
+
+msgid "View All Tasks"
+msgstr "عرض جميع المهام"
+
+msgid "Appearance"
+msgstr "المظهر"
+
+msgid "Preferences"
+msgstr "التفضيلات"
+
+msgid "Forms"
+msgstr "النماذج"
+
+msgid "Manage your profile information and display picture."
+msgstr "إدارة معلومات ملفك الشخصي وصورة العرض."
